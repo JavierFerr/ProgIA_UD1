@@ -63,8 +63,6 @@ def escribir(taboleiro):
             taboleiro[fila][colum] = "0"
             bandera = False
         mostrar(taboleiro)
-        if comprobar(taboleiro):
-            ganador = True
         
         while not bandera and not ganador:
             fila, colum = pedir_posicion(taboleiro, 2)
